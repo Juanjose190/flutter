@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// Pantalla principal con menú
 class MenuScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -52,7 +51,6 @@ class MenuScreen extends StatelessWidget {
   }
 }
 
-// Pantalla 1: Example layout
 class ExampleLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -90,7 +88,7 @@ class ExampleLayout extends StatelessWidget {
   }
 }
 
-// Pantalla 2: Example counter
+
 class ExampleCounter extends StatefulWidget {
   @override
   State<ExampleCounter> createState() => _ExampleCounterState();
@@ -133,7 +131,7 @@ class _ExampleCounterState extends State<ExampleCounter> {
   }
 }
 
-// Pantalla 3: List dynamic
+
 class ExampleList extends StatefulWidget {
   @override
   State<ExampleList> createState() => _ExampleListState();
@@ -167,4 +165,5 @@ class _ExampleListState extends State<ExampleList> {
       ),
     );
   }
+
 }
